@@ -1,0 +1,41 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "DanielGavin.ols",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  /* --- Odin Configuration --- */
+  "[odin]": {
+    "editor.defaultFormatter": "DanielGavin.ols",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+  /* --- JSON & JSONC Configuration --- */
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  /* --- General File Hygiene --- */
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}

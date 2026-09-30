@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Odin Game",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/game",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Odin: Build Debug",
+      "stopOnEntry": false,
+      "terminal": "integrated",
+      "env": {
+        "GLFW_VIDEODRIVER": "wayland"
+      }
+    }
+  ]
+}

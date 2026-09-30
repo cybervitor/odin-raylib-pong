@@ -1,0 +1,12 @@
+{
+  "$schema": "./.vscode/ols.schema.json",
+  "enable_format": true,
+  "enable_auto_import": true,
+  "enable_semantic_tokens": true,
+  "enable_document_symbols": true,
+  "enable_checker_only_saved": true,
+  "enable_inlay_hints_params": true,
+  "enable_inlay_hints_default_params": true,
+  "enable_inlay_hints_implicit_return": true,
+  "checker_args": "-debug"
+}

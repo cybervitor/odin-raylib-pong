@@ -1,0 +1,84 @@
+# ==========================================
+# Odin Build Outputs & Binaries
+# ==========================================
+# Executables compiled into root or subdirectories
+bin/
+build/
+out/
+*.exe
+*.bin
+*.out
+*.app
+
+# Intermediate / C Linker object files & debug symbols
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.pdb
+*.dSYM/
+
+
+# ==========================================
+# OLS (Odin Language Server)
+# ==========================================
+ols_log.txt
+.ols/
+.ols_cache/
+
+
+# ==========================================
+# VS Code Configuration
+# ==========================================
+# Ignore general VS Code internal state/logs
+.vscode/*
+
+# Keep your project-shared configs tracked in Git
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/ols.schema.json
+
+
+# ==========================================
+# Game Development Working Assets
+# ==========================================
+# Blender auto-saves and backups
+*.blend1
+*.blend2
+
+# Image editor working backups (GIMP, Photoshop, Aseprite)
+*.xcf~
+*.psd
+*~.sva
+
+# Audio editor project temp files (Audacity)
+*.aup3-wal
+*.aup3-shm
+
+# Raw local AI model outputs / dumps
+/raw_assets_working/
+
+
+# ==========================================
+# OS & Environment Junk
+# ==========================================
+# Linux / Hyprland / KDE
+.directory
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
